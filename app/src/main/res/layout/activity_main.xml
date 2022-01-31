@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:layout_gravity="bottom"
+        >
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="1" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:text="@string/_2" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/_3">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center|left"
+            android:text="@string/_4">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="@string/_5">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:text="@string/_6">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="bottom|right"
+            android:text="@string/_9">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="bottom"
+            android:text="@string/_7">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="@string/_8">
+
+        </Button>
+
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="131dp"
+        android:layout_height="181dp"
+        android:layout_gravity="bottom|end"
+
+        >
+
+        <Button
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+
+            android:text="/">
+
+        </Button>
+
+        <Button
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+
+            android:text="x">
+
+        </Button>
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_gravity="right"
+            android:text="-">
+
+        </Button>
+
+        <Button
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+
+            android:layout_column="1"
+            android:layout_gravity="right"
+            android:text="+">
+
+        </Button>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+
+            android:layout_column="0"
+            android:layout_gravity="bottom|right"
+            android:text="=">
+
+        </Button>
+
+        <Button
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+
+            android:layout_column="1"
+            android:layout_gravity="bottom|right"
+            android:text="%">
+
+        </Button>
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/wallpaper_image"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_margin="16dp"
+        android:background="@color/purple_200"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wallpaper">
+
+
+    </ImageView>
+
+
+
+
+
+
+</FrameLayout>
+
+
+
